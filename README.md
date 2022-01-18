@@ -19,7 +19,7 @@ npm run dev
 
 ## Testing
 ```javascript
-npn run test
+npm run test
 ```
 
 ## Dev notes
