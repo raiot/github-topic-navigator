@@ -1,0 +1,43 @@
+{
+  "name": "github-topic-navigator",
+  "version": "0.0.0",
+  "licence": "MIT",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.7",
+    "graphql": "^14.7.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.8",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.4.0",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@types/react-test-renderer": "^17.0.1",
+    "@vitejs/plugin-react": "^1.0.7",
+    "core-js": "^3.20.3",
+    "jest": "^27.4.7",
+    "jsdom": "^16.7.0",
+    "prettier": "^2.5.1",
+    "react-test-renderer": "^17.0.2",
+    "regenerator-runtime": "^0.13.9",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+    }
+  }
+}
